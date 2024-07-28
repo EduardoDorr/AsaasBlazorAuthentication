@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsaasBlazorAuthentication.API", "AsaasBlazorAuthentication.API\AsaasBlazorAuthentication.API.csproj", "{F223F3D3-DAC1-4141-A117-55888032CF42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F247A803-9006-4F25-8C30-9AFB2E418FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{BDDA9489-CC13-48E0-A9A2-9CE0A36BFE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsaasBlazorAuthentication.Infrastructure", "AsaasBlazorAuthentication.Infrastructure\AsaasBlazorAuthentication.Infrastructure.csproj", "{D9EA77E5-810C-4A2E-A23A-70436BCE94E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsaasBlazorAuthentication.Domain", "AsaasBlazorAuthentication.Domain\AsaasBlazorAuthentication.Domain.csproj", "{4016BA78-FA25-463E-AE7E-9318887F1D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsaasBlazorAuthentication.Application", "AsaasBlazorAuthentication.Application\AsaasBlazorAuthentication.Application.csproj", "{DEF31446-DB82-4D88-BF55-F7C2CB0C8FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsaasBlazorAuthentication.Common", "AsaasBlazorAuthentication.Common\AsaasBlazorAuthentication.Common.csproj", "{60C95A24-DE58-4FA9-8B9A-8384328134FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F223F3D3-DAC1-4141-A117-55888032CF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F223F3D3-DAC1-4141-A117-55888032CF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F223F3D3-DAC1-4141-A117-55888032CF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F223F3D3-DAC1-4141-A117-55888032CF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EA77E5-810C-4A2E-A23A-70436BCE94E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EA77E5-810C-4A2E-A23A-70436BCE94E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EA77E5-810C-4A2E-A23A-70436BCE94E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EA77E5-810C-4A2E-A23A-70436BCE94E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4016BA78-FA25-463E-AE7E-9318887F1D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4016BA78-FA25-463E-AE7E-9318887F1D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4016BA78-FA25-463E-AE7E-9318887F1D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4016BA78-FA25-463E-AE7E-9318887F1D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF31446-DB82-4D88-BF55-F7C2CB0C8FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF31446-DB82-4D88-BF55-F7C2CB0C8FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF31446-DB82-4D88-BF55-F7C2CB0C8FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF31446-DB82-4D88-BF55-F7C2CB0C8FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C95A24-DE58-4FA9-8B9A-8384328134FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C95A24-DE58-4FA9-8B9A-8384328134FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C95A24-DE58-4FA9-8B9A-8384328134FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C95A24-DE58-4FA9-8B9A-8384328134FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F223F3D3-DAC1-4141-A117-55888032CF42} = {F247A803-9006-4F25-8C30-9AFB2E418FA9}
+		{D9EA77E5-810C-4A2E-A23A-70436BCE94E2} = {F247A803-9006-4F25-8C30-9AFB2E418FA9}
+		{4016BA78-FA25-463E-AE7E-9318887F1D82} = {F247A803-9006-4F25-8C30-9AFB2E418FA9}
+		{DEF31446-DB82-4D88-BF55-F7C2CB0C8FF0} = {F247A803-9006-4F25-8C30-9AFB2E418FA9}
+		{60C95A24-DE58-4FA9-8B9A-8384328134FD} = {F247A803-9006-4F25-8C30-9AFB2E418FA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC8C3967-F398-4DE8-A522-BAD8729EC888}
+	EndGlobalSection
+EndGlobal
